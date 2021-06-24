@@ -3,7 +3,7 @@
 Areas of interest
 - Automation/ Robotics
 - Drawing software
-  - Krita 
+  - Krita https://github.com/KDE/krita
 - Graphical Engine
 - Software Architecture
 - Game dev
