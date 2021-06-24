@@ -3,12 +3,14 @@
 Areas of interest
 - Automation/ Robotics
 - Drawing software
+  - Krita 
+- Graphical Engine
 - Software Architecture
 - Game dev
 
 Skills Stack
 - Software Design
-  - Software System Design 
+  - Software Architecture Design 
   - Design Pattern
   - UI/UX design
 - Application Software
