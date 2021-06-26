@@ -12,9 +12,9 @@ Requirements:
 
 Steps:
 1. prepare dir
-- Krita (git source)
 - krita_dev
   - dev
+    - Krita (git source)
   - d 
   - i
-2. 
+2. create krita/env.bat 
