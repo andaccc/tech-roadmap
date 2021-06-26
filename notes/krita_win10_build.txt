@@ -1,0 +1,20 @@
+Steps for building Krita in win10
+
+https://docs.krita.org/en/untranslatable_pages/building_krita.html#building-on-windows
+
+Requirements:
+- Git
+- CMake > 3.10
+- mingw-w64 7.3
+- Python 3.8
+- Window 10 SDK
+- QT Creator
+
+Steps:
+1. prepare dir
+- Krita (git source)
+- krita_dev
+  - dev
+  - d 
+  - i
+2. 
