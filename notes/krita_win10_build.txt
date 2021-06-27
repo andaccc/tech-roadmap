@@ -15,6 +15,6 @@ Steps:
 - krita_dev
   - dev
     - Krita (git source)
-  - d 
-  - i
+  - deps
+  - install
 2. create krita/env.bat 
