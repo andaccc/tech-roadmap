@@ -4,6 +4,7 @@ Data Structures
 - Queue
 - Stack
 - Graph
+- Map
 
 Complexity Analysis
 - BigO notation
