@@ -1,0 +1,49 @@
+Data Structures
+- Array
+- Linked List
+- Queue
+- Stack
+- Graph
+
+Complexity Analysis
+- BigO notation
+- Time
+- Space
+
+Algorithm 
+- Search
+  - Binary Search
+  - Depth First Search
+  - Breadth First Search
+- Sort
+  - Merge Sort
+  - Quick Sort
+
+Threading
+- Process
+- Thread
+- Concurrency
+
+Software Design
+- Object Oriented 
+- Paradigms
+  - Imperative
+  - Declarative
+- Class Design
+  - SOLID
+    - Single responsibility
+    - Open/Closed
+    - Liskov Substitution
+    - Interface Segregation
+    - Dependency Inversion
+- Design Patterns
+  - Creational
+  - Behavioral
+  - Structural
+- Software Architecture
+  - Layered
+  - Microservices
+  - Cache
+
+References:
+https://www.youtube.com/playlist?list=PL4JxLacgYgqTgW1-ZPLPH4pKGxX_9ma-t
