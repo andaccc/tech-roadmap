@@ -4,6 +4,8 @@ Algorithm
 - Pointer
 - Dynamic Programming
 Time Complexity
+Test Case
+- edge cases
 Data Structure
 - String
 - Array
