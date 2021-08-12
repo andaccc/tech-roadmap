@@ -1,0 +1,10 @@
+Brute Force
+Algorithm
+- Backtracking
+- Pointer
+- Dynamic Programming
+Time Complexity
+Data Structure
+- String
+- Array
+- Linked List
