@@ -2,6 +2,7 @@ Brute Force
 Algorithm
 - Backtracking
 - Pointer
+- recursion
 - Dynamic Programming
 Time Complexity
 Test Case
