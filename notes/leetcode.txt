@@ -6,6 +6,7 @@ Algorithm
   - recursion
   - Backtracking
     - recursion with backtracking to previous state for next find
+  - Sliding window
 - Dynamic Programming
 Time Complexity
 Test Case
