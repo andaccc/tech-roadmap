@@ -3,8 +3,9 @@ Algorithm
 - search
   - Pointer
 - Find solutions
-  - Backtracking
   - recursion
+  - Backtracking
+    - recursion with backtracking to previous state for next find
 - Dynamic Programming
 Time Complexity
 Test Case
