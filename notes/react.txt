@@ -1,0 +1,53 @@
+### React ###
+ 
+Props
+- pass to component
+
+State
+- within component
+
+Component
+- Functional
+- Class
+  - lifecycle
+- Pure Component
+  - rerender only if state/props change
+  - shallow props
+  - state comparison
+- Memo
+  - skip rerender if no changes
+
+High Order Components
+  - Share common funtionality
+  - component wrapper/pattern
+
+Render prop
+- sharing code
+- prop function
+
+Context
+- pass data through component tree
+- Provider
+- Consumer
+
+Ref
+- forward (passing parents ref component)
+
+Portal
+- mount any dom node
+
+Error Boundary
+- Hide components if error and display fall-back UI
+
+
+Life Cycle
+- Mounting
+- Updating
+- Unmounting
+- Error Handling
+
+Fragment
+- wrap if multiple elements
+
+
+ref: youtube Codevolution
