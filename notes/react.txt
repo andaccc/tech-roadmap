@@ -39,7 +39,6 @@ Portal
 Error Boundary
 - Hide components if error and display fall-back UI
 
-
 Life Cycle
 - Mounting
 - Updating
@@ -48,6 +47,15 @@ Life Cycle
 
 Fragment
 - wrap if multiple elements
+
+# Hook
+Rules
+- call in top level
+
+SetState
+UseEffect
+- side effect
+- handling life cycle method
 
 
 ref: youtube Codevolution
