@@ -69,5 +69,6 @@ useReducer
 
 useCallback
 - return callback function, only changes if dependencies has changed
+- optimize component
 
 ref: youtube Codevolution
