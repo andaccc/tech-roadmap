@@ -71,4 +71,14 @@ useCallback
 - return callback function, only changes if dependencies has changed
 - optimize component
 
+useMemo
+
+useRef
+
+Custom Hook
+- start with "use"
+- call other hook
+- share logic
+- Better code structure
+
 ref: youtube Codevolution
