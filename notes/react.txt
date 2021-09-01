@@ -1,12 +1,12 @@
 ### React ###
  
-Props
+# Props
 - pass to component
 
-State
+# State
 - within component
 
-Component
+# Component
 - Functional
 - Class
   - lifecycle
@@ -17,45 +17,57 @@ Component
 - Memo
   - skip rerender if no changes
 
-High Order Components
+# High Order Components
   - Share common funtionality
   - component wrapper/pattern
 
-Render prop
+# Render prop
 - sharing code
 - prop function
 
-Context
+# Context
 - pass data through component tree
 - Provider
 - Consumer
 
-Ref
+# Ref
 - forward (passing parents ref component)
 
-Portal
+# Portal
 - mount any dom node
 
-Error Boundary
+# Error Boundary
 - Hide components if error and display fall-back UI
 
-Life Cycle
+# Life Cycle
 - Mounting
 - Updating
 - Unmounting
 - Error Handling
 
-Fragment
+# Fragment
 - wrap if multiple elements
 
 # Hook
 Rules
 - call in top level
 
-SetState
-UseEffect
+useState
+- state
+
+useEffect
 - side effect
 - handling life cycle method
 
+useContext
+- context API
+
+useReducer
+- state management
+- reducer javascript functions
+- input: (reducer, initialState)
+
+useCallback
+- return callback function, only changes if dependencies has changed
 
 ref: youtube Codevolution
