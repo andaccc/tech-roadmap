@@ -48,7 +48,7 @@
 # Fragment
 - wrap if multiple elements
 
-# Hook
+#====== Hook ======#
 Rules
 - call in top level
 
@@ -80,5 +80,8 @@ Custom Hook
 - call other hook
 - share logic
 - Better code structure
+
+#===== Component Communication =====#
+https://www.javascriptstuff.com/component-communication/#1-props
 
 ref: youtube Codevolution
