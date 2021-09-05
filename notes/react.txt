@@ -49,6 +49,11 @@
 - wrap if multiple elements
 
 #====== Hook ======#
+ * - readibility 
+ * - Debug
+ * - Module
+ * - Encapsulated
+
 Rules
 - call in top level
 
