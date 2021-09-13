@@ -1,0 +1,24 @@
+### Data Structure ###
+
+# Array
+- sequece of memory locations
+
+# Linked Lists
+- Collection of nodes which each node reference to the next node
+- Stack FILO
+- Queue FIFO
+- Doubly Linked Lists
+
+# Tree
+- collection of nodes which connected by edges, root to leaves 
+- binary tree
+  - each node has 2 children
+
+# Graph
+- collection of vertices and edges
+
+# Hash Table
+- key, value with unique index
+- hashing to generate index
+- linked list
+- faster look up, find the index instead look up the list one by one
