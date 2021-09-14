@@ -1,0 +1,104 @@
+### C++ ###
+
+# const correctness
+
+# pointer 
+- variable storing the memeory address of an object
+
+# reference 
+- variable as an alias to an existing object/value
+
+pointer vs reference 
+- pointer can reassign
+- pointer has its own identity 
+- nested pointer (pointer of a pointer)
+- pointer can be nullptr
+- pointer need dereference
+
+
+### Polymorphism
+- member function has different function implementation
+
+# static (compile time/ early binding) 
+- function overloading
+- operator overloading
+- easier implmentation and type safe 
+
+# dynamic (run time/ late binding)
+- virtual function (class/member  implementation)
+- executable code size smaller
+
+# Virtual function
+- member function can be overriden in derived classes
+- late binding
+- overload for regardless type and superclass
+
+# struct 
+-  user-defined composite type that consist of fields/ member with different types
+
+# class
+- consist of data and functions
+
+# union
+- same memory location
+- only contain one object from member list at a time
+- only one member can be accessed at a time
+- only the first member can be initialized 
+- conserving memory
+
+# enum
+- named intergral constant (only number)
+
+struct vs class
+- struct
+   - member public by default
+- class
+   - member as private by default
+   - can be declare template
+   - for private or protected members, non-default constructors and operators
+
+# const correctness
+- using const to prevent const objects from getting mutated
+
+# const member function
+- member immutatable in the function
+
+# STL (Standard Template Library)
+- common classes for C++ 
+- provides algorithms, containers, functions and literators
+- std namespace
+
+# namespace
+- bad practise if both class has same function name
+
+# smart pointer
+- declare on stack
+- owns raw painter
+- auto delete 
+
+# unique pointer
+- std::unique_ptr
+- one owner of the underlying pointer
+- can't be copy
+
+# shared pointer
+- std::shared_ptr
+- multiple owners
+- reference counting
+- delete when all references destroy
+
+# weak pointer
+- std::weak_ptr
+- no increment in reference count
+- provide access to an object which owned by one or more shared_ptr
+- observer object but not reqiure to remain alive
+
+# Concurrency 
+- doing multiple things at the same time
+
+# multithreading
+- simultaneous execution of two or more parts of a program 
+- multiple computing threads of a single process
+
+# multiprocessing
+- separate memory and resources for each process
