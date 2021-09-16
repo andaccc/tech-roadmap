@@ -1,5 +1,5 @@
-Brute Force
-Algorithm
+# Brute Force
+# Algorithm
 - search
   - Pointer
 - Find solutions
@@ -8,12 +8,28 @@ Algorithm
     - recursion with backtracking to previous state for next find
   - Sliding window
 - Dynamic Programming
-Time Complexity
+
+# Time Complexity
+
 Test Case
 - edge cases
+
 Data Structure
 - String
 - Array
 - Map
   - O(1) ( O(log N) )
 - Linked List
+
+=======================
+Testing
+- Edge cases
+  - negative numbers
+  - empty value
+
+- Normal cases
+
+- logic dependent
+
+- Load testing
+  - max constraints
