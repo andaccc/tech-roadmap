@@ -1,3 +1,4 @@
+==========================
 # Brute Force
 # Algorithm
 - search
@@ -11,6 +12,8 @@
 
 # Time Complexity
 
+# Pesudo code
+
 Test Case
 - edge cases
 
@@ -20,6 +23,11 @@ Data Structure
 - Map
   - O(1) ( O(log N) )
 - Linked List
+
+
+# Unique elements
+Hash map
+  - C++ set
 
 =======================
 Testing

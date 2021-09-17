@@ -4,6 +4,7 @@
 
 # pointer 
 - variable storing the memeory address of an object
+- save memory space (instead passing whole file data)
 
 # reference 
 - variable as an alias to an existing object/value
