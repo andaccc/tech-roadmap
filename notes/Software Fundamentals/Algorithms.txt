@@ -2,6 +2,7 @@
 Recursive 
 Backtracking
 
+====================================
 ### Seaching
 # Linear Search
 - time: O(n)
@@ -22,6 +23,7 @@ Backtracking
 - explore all nodes for current depth
 - O(V+E)
 
+======================================
 ### Sorting
 # Bubble Sort
 - swapping adjacent elements
@@ -43,6 +45,7 @@ Backtracking
 - space: O(n)
 
 # Insertion Sort
-# Selection SOrt
+# Selection Sort
 # Tree Sort
 # Heap SOrt
+# Radix Sort

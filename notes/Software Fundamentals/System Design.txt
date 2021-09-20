@@ -1,0 +1,43 @@
+##### System Design #####
+- Scope Problem
+- Assumptions
+  - user load
+
+- Draw Component
+  - frontend 
+  - db 
+
+- Key Issues
+  - bottleneck
+  - challenges
+  - limitation
+
+# Scaling 
+  - Horizontal, larger node
+  - Vertical, number of nodes
+
+- Load Balancer
+
+- Database Denormalization / NoSQL
+  - avoid join
+
+- Database Partitioning (Sharding)
+  - Vertical Partitional
+    - By feature (profilesm messages...)
+  - Key-Based
+  - Directory-Based
+    - lookup table
+
+- Caching
+- Asynchronous Processing / Queues
+
+# Networking Metrics
+- Bandwidth
+- Throughput, actual amount of data that is transfered
+- Latency
+
+# Considerations
+- Failures
+- Availability and Reliability
+- Read Heavy vs Write Heavy
+- Security

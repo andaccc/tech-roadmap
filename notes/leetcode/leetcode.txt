@@ -1,0 +1,82 @@
+==========================
+### Data Structure
+- Linked Lists
+- Tree
+- Graphs
+- Stack / Queues
+- Heaps (max / min, parent >/< childer)
+- String
+- Array
+- Hash Table/ Map
+  - O(1) ( O(log N) )
+
+### Algorithm
+## Brute Force
+## Search
+- Breadth-First Search
+- Depth-First Search
+- Binary Search (low/high/mid pointer)
+
+## Sort
+- Quick Sort (pivot)
+- Merge Sort (recursive divide)
+
+### Concepts
+- Bit Manipulation
+- Memory (Stack vs Heap)
+- Pointer / pivot
+- Iterative
+- Recursion
+  - each call = new layer to stack, depth n: O(n) memory
+  - Backtracking
+- Dynamic Programming
+  - recursive 
+  - overlapping subproblem
+  - memoriozation, caching previous call results
+- Sliding Window
+
+# Time/ Space Complexity
+
+# Pesudo code
+
+
+# Unique elements
+Hash map
+  - C++ set
+
+=======================
+### Flow
+- understand problem
+- Brute Force
+- Optimize algorithm 
+  1. Improvement
+  - Bottlenecks
+  - Unnecessary work
+  - Duplicated Work
+  2. layout Real example
+  3. Simplify and Generalize (Pesudo Code)
+    - what exact step (create array...)
+    - improve it by hash table
+  4. Base Case and Build
+    - complex case 
+  5. Data Structure Brainstorm
+    - which to use
+- Implement Code
+  - simple
+  - Readable
+  - Maintainable
+- Test Case
+  - special case
+
+=======================
+Testing
+- Edge cases
+  - negative numbers
+  - empty value
+
+- Normal cases
+
+- logic dependent
+
+- Load testing
+  - max constraints

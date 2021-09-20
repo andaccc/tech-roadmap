@@ -1,0 +1,12 @@
+##### Threading #####
+- shared memory resources
+
+- Synchronization / Lock
+  - prevent multiple threads access same resource at the same time
+
+# Deadlocks
+- both thread waiting lock releases
+  - Mutual Exclusion: Only one process can access a resource at given time
+  - Hold and Wait: not relinquishing current resources when requesting additional resoures
+  - No Preemption: cannot forcibly remove another process' resource
+  - Circular Wait: each process is waiting another resource

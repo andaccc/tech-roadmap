@@ -2,9 +2,15 @@
 
 # const correctness
 
+# Classes and Inheritance
+
+# Constructors / Destructors
+
 # pointer 
 - variable storing the memeory address of an object
+- use to perform any operation, access/ modify of the variable
 - save memory space (instead passing whole file data)
+- 32 bit on 32bit pc, 64 bit on 64bit pc
 
 # reference 
 - variable as an alias to an existing object/value
@@ -16,6 +22,7 @@ pointer vs reference
 - pointer can be nullptr
 - pointer need dereference
 
+# Templates
 
 ### Polymorphism
 - member function has different function implementation
