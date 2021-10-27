@@ -1,0 +1,43 @@
+##### Intro to krita dev #####
+
+https://docs.krita.org/en/untranslatable_pages/intro_hacking_krita.html#introduction-to-hacking-krita
+
+===[Knowledge]===
+- QT
+- C++
+
+===[Community]===
+- join IRC
+  - https://web.libera.chat/
+  - #krita 
+  - ##krita-chat
+- GitLab for bugtracking
+- subscribe mailing list
+- https://krita-artists.org/c/develop/7
+- https://forum.kde.org/viewforum.php?f=136
+
+===[IDE]===
+- vs code seems ok
+- QT creator 
+
+
+===[Archirecture]===
+
+
+
+===[Debug]===
+https://darabba.blogspot.com/2019/05/kritaqt-creator.html
+https://www.youtube.com/watch?v=jxIhFlGbPbs&ab_channel=DmitryKazakov
+### Set up Krita project for QT Creator 
+- open CMakeLists.txt
+- Projects >
+	- set Kits (64 bits) 
+	- set Build
+		- cmake setting
+		- https://docs.krita.org/en/untranslatable_pages/cmake_settings_for_developers.html#cmake-build-type
+
+
+===[Git]====
+https://invent.kde.org/graphics/krita
+
+Fork

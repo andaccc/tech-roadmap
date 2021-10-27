@@ -1,0 +1,1 @@
+ krita\build-tools\windows\build.cmd --no-interactive --jobs 8 --skip-deps --src-dir %BUILDROOT%\krita --download-dir %BUILDROOT%\d --deps-build-dir %BUILDROOT%\b --deps-install-dir %BUILDROOT%\is --krita-build-dir %BUILDROOT%\b_krita --krita-install-dir %BUILDROOT%\i

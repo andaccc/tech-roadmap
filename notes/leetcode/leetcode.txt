@@ -1,5 +1,5 @@
 ==========================
-### Data Structure
+### Data Structure ###
 - Linked Lists
 - Tree
 - Graphs
@@ -10,7 +10,7 @@
 - Hash Table/ Map
   - O(1) ( O(log N) )
 
-### Algorithm
+### Algorithm ###
 ## Brute Force
 ## Search
 - Breadth-First Search
@@ -21,7 +21,7 @@
 - Quick Sort (pivot)
 - Merge Sort (recursive divide)
 
-### Concepts
+### Concepts ###
 - Bit Manipulation
 - Memory (Stack vs Heap)
 - Pointer / pivot
@@ -33,6 +33,7 @@
   - recursive 
   - overlapping subproblem
   - memoriozation, caching previous call results
+	- memoization table (dp table)
 - Sliding Window
 
 # Time/ Space Complexity
@@ -45,7 +46,7 @@ Hash map
   - C++ set
 
 =======================
-### Flow
+[Flow]
 - understand problem
 - Brute Force
 - Optimize algorithm 
@@ -69,7 +70,7 @@ Hash map
   - special case
 
 =======================
-Testing
+[Testing]
 - Edge cases
   - negative numbers
   - empty value
@@ -80,3 +81,57 @@ Testing
 
 - Load testing
   - max constraints
+
+=======================
+[Time Space Complexity]
+
+### Time
+- O(N)
+- O(N^2)
+- O(2^N)
+- O(log N) division
+- O(N log N)
+- O(1)
+
+- Best Case
+- Worst Case
+- Expected Case
+
+### Space
+- array: O(n)
+- 2D arr: O(N^2)
+- recursion
+
+O(N^2 + N) = O(N^2)
+O(N + log N) = O(N)
+O(5*2^N + 1000N^100) = O(2^N)
+
+=========================
+[Anagram group]
+- sort string and hash map
+
+[Array]
+### Permutations/ Combinations/ Subsets
+- Recursion
+- Backtracking
+- Lexicographic generation
+
+### Subsets / SubArray
+- Iteration for next index integer 
+  - Time/Space :O(N * 2^N)
+
+- Backtrack all possible subset lengths
+  - DFS 
+  - Time: O(N * 2^N)
+  - Space:O(N)
+
+- DP
+  - generation add up for next index
+
+- Bitmask
+  - Time/Space :O(N * 2^N)
+
+### Subset String
+ - Hash Map
+   - Time: O(N) 
+ - Bit manipulation 

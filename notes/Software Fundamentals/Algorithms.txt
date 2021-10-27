@@ -1,6 +1,9 @@
 ##### Algorithms #####
 Recursive 
 Backtracking
+- Choose
+- Constraint
+- Goal
 
 ====================================
 ### Seaching
