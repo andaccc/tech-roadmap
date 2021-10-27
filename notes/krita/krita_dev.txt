@@ -20,21 +20,57 @@ https://docs.krita.org/en/untranslatable_pages/intro_hacking_krita.html#introduc
 - vs code seems ok
 - QT creator 
 
-
-===[Archirecture]===
-
-
-
-===[Debug]===
 https://darabba.blogspot.com/2019/05/kritaqt-creator.html
 https://www.youtube.com/watch?v=jxIhFlGbPbs&ab_channel=DmitryKazakov
 ### Set up Krita project for QT Creator 
-- open CMakeLists.txt
-- Projects >
-	- set Kits (64 bits) 
-	- set Build
-		- cmake setting
-		- https://docs.krita.org/en/untranslatable_pages/cmake_settings_for_developers.html#cmake-build-type
+
+# Open Project
+- open project with krita/CMakeLists.txt
+
+# Set Kits
+- !!! Don't change kits, use default "Imported Kit - temporary"
+   - if change kit then need to rebuild krita
+- use release with debug info
+- manage -> cmake -> uncheck "Autorun Cmake"
+- Debugger -> make sure GDB is here
+- Compiler -> MinGW g++
+- QT version -> i/bin/qmake.exe
+- Kits 
+	- change to proper name: "Qt 5.12.11 (i)"
+	- Check compiles
+	- debuggers
+	- QT version
+	- CMake Configuration: remove all 
+- Configure Project
+
+# Set Build
+- Build Environment 
+  - Details
+  - Path -> Bath edit
+    - in cmd -> set
+    - paste path 
+
+- Build directory: b_krita
+- Build -> Build Krita
+	- cmake setting
+	- https://docs.krita.org/en/untranslatable_pages/cmake_settings_for_developers.html#cmake-build-type
+
+
+# Set Run
+- Run Setting > Run
+- add Custom Executable
+ - i/krita.exe
+
+- (Deployment)
+	- Add Deploy Step -> cmake
+
+# Debug
+- add breakpoint
+- pause application
+
+
+===[Archirecture]===
+
 
 
 ===[Git]====
