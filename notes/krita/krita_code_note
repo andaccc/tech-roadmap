@@ -1,0 +1,11 @@
+Krita 
+
+[Achitecture]
+
+# entry
+krita/main.cc
+- ln 672 app.start() -> start app
+- app.exec() -> keep event loop 
+
+
+libs/ui/KisApplication

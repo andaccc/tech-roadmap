@@ -69,10 +69,6 @@ https://www.youtube.com/watch?v=jxIhFlGbPbs&ab_channel=DmitryKazakov
 - pause application
 
 
-===[Archirecture]===
-
-
-
 ===[Git]====
 https://invent.kde.org/graphics/krita
 

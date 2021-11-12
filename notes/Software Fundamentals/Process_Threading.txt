@@ -1,7 +1,12 @@
-##### Threading #####
-- shared memory resources
+[Process]
+- Executable
+- separate system resources 
 
-- Synchronization / Lock
+[Threading]
+- within same process
+- shared memory resources in same heap  
+
+# Synchronization / Lock
   - prevent multiple threads access same resource at the same time
 
 # Deadlocks
