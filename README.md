@@ -1,5 +1,6 @@
-# tech-map
+Introduction of my tech-roadmap and software related notes
 
+===================
 Areas of interest
 - Automation/ Robotics
 - Drawing software
