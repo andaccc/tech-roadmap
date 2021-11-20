@@ -32,13 +32,18 @@
 - subdomains
 
 ===[Architectural Styles]===
-### Component-based
+### Component-based / Microservices
 - independent components
 - horizontal separation
 
 ### Monolithic
 - Single platform/ program
-
+- Pros:
+  - Simple to deploy
+- Cons:
+  - Language/ Framework lock
+  - Difficult to digest when evolved large
+  - deploy as single unit
 
 ### Layered
 - separate vertically

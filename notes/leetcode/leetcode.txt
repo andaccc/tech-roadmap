@@ -135,3 +135,6 @@ O(5*2^N + 1000N^100) = O(2^N)
  - Hash Map
    - Time: O(N) 
  - Bit manipulation 
+
+### String, Char count
+- Stack
