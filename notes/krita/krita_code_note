@@ -8,4 +8,14 @@ krita/main.cc
 - app.exec() -> keep event loop 
 
 
-libs/ui/KisApplication
+# libs/ui/KisApplicatio.cpp
+- application class
+- KisMainWindow
+  - KisPart
+
+ln 350 start()
+- splashScreen
+- plugins
+- resources
+
+

@@ -1,0 +1,40 @@
+##### Clean code #####
+
+[Naming]
+- meaningful
+- intention-revealing
+	- why it exists
+	- what it does
+	- how it used
+- avoid disinformation
+- meaningful distinctions
+- pronounceable
+- searchable
+- avoid encoding
+	- hungarian notation (bSwitchState)
+	- member prefixes (m_age)
+	- interfaces and implementations (ICar)
+- avoid mental mapping
+- class name 
+	- noun not verb
+- method name
+	- verb (get/set/is)
+- don't be cute
+- one word per concept 
+- no joke
+- technical terms
+- add meaningful context(addrState)
+
+[Functions]
+- small
+- blocks and indenting
+- do one thing
+- one level of abstraction per function
+- top to bottom
+- descriptive names
+- function arg 
+	- 0~3
+	- no flag arg
+- no side effects
+- avoid output arg
+- either do something or anwser something, not both
