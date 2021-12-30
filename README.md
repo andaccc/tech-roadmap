@@ -2,7 +2,9 @@ Introduction of my tech-roadmap and software related notes
 
 ===================
 Areas of interest
-- Automation/ Robotics
+- Robotics
+  - Multi-Agent Pathfinding
+  - Mission Planning
 - Drawing software
   - Krita https://github.com/KDE/krita
 - Graphical Engine
@@ -12,7 +14,7 @@ Areas of interest
 Skills Stack
 - Software Design
   - Software Architecture Design 
-  - Design Pattern
+    - Design Pattern
   - UI/UX design
 - Application Software
   - Hardware Interfacing
