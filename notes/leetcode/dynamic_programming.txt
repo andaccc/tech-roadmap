@@ -29,7 +29,13 @@
 7. Determine time/space complexity
 
 
+# Types
+Bottom-up (Tabulation)
+- build up look up table starting at base cases 
 
+Top-down (Memoization)
+- with recursion
+- store function result in hashmap/ array if not yet exist  
 
 Ref:
 https://www.freecodecamp.org/news/follow-these-steps-to-solve-any-dynamic-programming-interview-problem-cc98e508cd0e/
