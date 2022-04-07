@@ -11,7 +11,9 @@ krita/main.cc
 # libs/ui/KisApplicatio.cpp
 - application class
 - KisMainWindow
+  - menu components -> KActionMenu
   - KisPart
+     - manage application resources (main windows, components) 
 
 ln 350 start()
 - splashScreen
