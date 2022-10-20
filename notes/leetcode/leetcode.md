@@ -1,5 +1,4 @@
-==========================
-### Data Structure ###
+# Data Structure
 - Linked Lists
 - Tree
 - Graphs
@@ -10,8 +9,11 @@
 - Hash Table/ Map
   - O(1) ( O(log N) )
 
-### Algorithm ###
+# Algorithm 
+
 ## Brute Force
+- direct flow
+
 ## Search
 - Breadth-First Search
 - Depth-First Search
@@ -21,7 +23,7 @@
 - Quick Sort (pivot)
 - Merge Sort (recursive divide)
 
-### Concepts ###
+# Concepts 
 - Bit Manipulation
 - Memory (Stack vs Heap)
 - Pointer / pivot
@@ -36,17 +38,11 @@
 	- memoization table (dp table)
 - Sliding Window
 
-# Time/ Space Complexity
-
-# Pesudo code
-
-
 # Unique elements
 Hash map
   - C++ set
 
-=======================
-[Flow]
+# Flow
 - understand problem
 - Brute Force
 - Optimize algorithm 
@@ -69,8 +65,7 @@ Hash map
 - Test Case
   - special case
 
-=======================
-[Testing]
+# Testing
 - Edge cases
   - negative numbers
   - empty value
@@ -82,8 +77,7 @@ Hash map
 - Load testing
   - max constraints
 
-=======================
-[Time Space Complexity]
+# Time Space Complexity
 
 ### Time
 - O(N)

@@ -1,6 +1,6 @@
-##### Clean code #####
+# Clean code
 
-[Naming]
+## Naming
 - Meaningful
 - Intention-revealing
 	- why it exists
@@ -25,7 +25,8 @@
 - Technical terms
 - Add meaningful context(addrState)
 
-[Functions]
+---
+## Functions
 - Small
 - Blocks and indenting
 - Do one thing
@@ -42,7 +43,8 @@
 - Don't reapeat itself
 - Best one try and one return
 
-[Comments]
+---
+## Comments
 - Best code doesn't need comment
 - Basic information
 - Intent behind a decision
@@ -50,7 +52,8 @@
 - Potential consequences
 - TODO comments
 
-[Formatting]
+---
+## Formatting
 - Consistent and smooth styles
 - Vertical formatting
 	- variable declare as close to their usage
@@ -59,11 +62,13 @@
 - Horizontal Formatting
     - Identation
 
-[Data Structures/ Objects]
+---
+## Data Structures/ Objects
 - Data abstraction, hiding implementation
 - Data Transfer Object
 
-[Error Handling]
+---
+## Error Handling
 - Exceptions rather than return error codes
 - Try Catch Finally
 - Provide exceptions context
@@ -71,29 +76,34 @@
 - don't return null
 - don't pass null
 
-[Boundaries]
+---
+## Boundaries
 - Third-party libs
 
-[Unit Tests]
+---
+## Unit Tests
 - TDD
   - no production code before failing unit test
   - no more of a unit test than is sufficient to fail and not compiling 
   - no more production code thab is dufficent to pass curenntly failing test
 - one assert per test
 
-[Classes]
+---
+## Classes
 - Encapsulation
 - Small
 - Isolating from Change
 
-[System]
+---
+## System
 - Separate start up process
 - Scaling up
   - no "right the first time"
   - only today's stories
   - keep refactoring
 
-[Design]
+---
+## Design
 - Postpone decision until last possible moment
 - Run all tests
 - No duplication

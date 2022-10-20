@@ -1,19 +1,19 @@
-=====[String]=====
-### Anagram group
+# String
+## Anagram group
 - words from letter rearragement
 - sort string and hash map
 
-### Pangrams
+## Pangrams
 - words with all 26 letters
 - bool table with letter index
 
-=====[Array]=====
-### Permutations/ Combinations/ Subsets
+# Array
+## Permutations/ Combinations/ Subsets
 - Recursion
 - Backtracking
 - Lexicographic generation
 
-### Subsets / SubArray
+## Subsets / SubArray
 - Iteration for next index integer 
   - Time/Space :O(N * 2^N)
 
@@ -28,10 +28,10 @@
 - Bitmask
   - Time/Space :O(N * 2^N)
 
-### Subset String
+# Subset String
  - Hash Map
    - Time: O(N) 
  - Bit manipulation 
 
-### String, Char count
+# String, Char count
 - Stack
