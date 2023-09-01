@@ -1,14 +1,12 @@
-Krita 
+### Krita Achitecture Study
 
-[Achitecture]
-
-# entry
+## Entry
 krita/main.cc
 - ln 672 app.start() -> start app
 - app.exec() -> keep event loop 
 
 
-# libs/ui/KisApplicatio.cpp
+## libs/ui/KisApplicatio.cpp
 - application class
 - KisMainWindow
   - menu components -> KActionMenu

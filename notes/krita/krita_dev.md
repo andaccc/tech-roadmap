@@ -1,12 +1,12 @@
-##### Intro to krita dev #####
+# Intro to krita dev 
 
 https://docs.krita.org/en/untranslatable_pages/intro_hacking_krita.html#introduction-to-hacking-krita
 
-===[Knowledge]===
+## Required Knowledge
 - QT
 - C++
 
-===[Community]===
+## Community
 - join IRC
   - https://web.libera.chat/
   - #krita 
@@ -16,18 +16,21 @@ https://docs.krita.org/en/untranslatable_pages/intro_hacking_krita.html#introduc
 - https://krita-artists.org/c/develop/7
 - https://forum.kde.org/viewforum.php?f=136
 
-===[IDE]===
+## IDE
+
 - vs code seems ok
 - QT creator 
 
 https://darabba.blogspot.com/2019/05/kritaqt-creator.html
 https://www.youtube.com/watch?v=jxIhFlGbPbs&ab_channel=DmitryKazakov
-### Set up Krita project for QT Creator 
 
-# Open Project
+---
+# Set up Krita project for QT Creator 
+
+## Open Project
 - open project with krita/CMakeLists.txt
 
-# Set Kits
+## Set Kits
 - !!! Don't change kits, use default "Imported Kit - temporary"
    - if change kit then need to rebuild krita
 - use release with debug info
@@ -43,7 +46,7 @@ https://www.youtube.com/watch?v=jxIhFlGbPbs&ab_channel=DmitryKazakov
 	- CMake Configuration: remove all 
 - Configure Project
 
-# Set Build
+## Set Build
 - Build Environment 
   - Details
   - Path -> Bath edit
@@ -56,7 +59,7 @@ https://www.youtube.com/watch?v=jxIhFlGbPbs&ab_channel=DmitryKazakov
 	- https://docs.krita.org/en/untranslatable_pages/cmake_settings_for_developers.html#cmake-build-type
 
 
-# Set Run
+## Set Run
 - Run Setting > Run
 - add Custom Executable
  - i/krita.exe
@@ -64,12 +67,12 @@ https://www.youtube.com/watch?v=jxIhFlGbPbs&ab_channel=DmitryKazakov
 - (Deployment)
 	- Add Deploy Step -> cmake
 
-# Debug
+## Debug
 - add breakpoint
 - pause application
 
-
-===[Git]====
+---
+## Git
 https://invent.kde.org/graphics/krita
 
 Fork

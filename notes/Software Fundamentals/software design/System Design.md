@@ -1,33 +1,31 @@
-##### System Design #####
-[Aspect]
+# System Design 
+## Aspect
 - Client Ease of Use
 - Ease for internal implement/ maintenance
 - Flexibility for futuren demands
 - Scalability and Efficency
-
-
 - Scope Problem
 
-[Assumptions]
+## Assumptions
   - user load
 
-[Draw Component]
+## Draw Component
   - frontend 
   - db 
   - other modules...
 
-[Key Issues]
+## Key Issues
   - bottleneck
   - challenges
   - limitation
 
-[Scaling]
+## Scaling
   - Horizontal, larger node
   - Vertical, number of nodes
 
-[Load Balancer]
+## Load Balancer
 
-[Database]
+## Database
 - Database Denormalization / NoSQL
   - avoid join
 
@@ -38,20 +36,20 @@
   - Directory-Based
     - lookup table
 
-[Caching]
+## Caching
 - query
 - resources for web page
 
-[Asynchronous Processing & Queues]
+## Asynchronous Processing & Queues
 - separate operation
 - instead waiting 
 
-[Networking Metrics]
+## Networking Metrics
 - Bandwidth
 - Throughput, actual amount of data that is transfered
 - Latency
 
-[Considerations]
+## Considerations
 - Failures
 - Availability and Reliability
 - Read Heavy vs Write Heavy

@@ -1,10 +1,10 @@
-##### Design Principles #####
+# Design Principles 
 
-[Composition over inheritance]
+## Composition over inheritance
 
-[Encapsulate what varies]
+## Encapsulate what varies
 
-[SOLID]
+## SOLID
 - Single Responsibility
 
 - Open Closed
@@ -19,9 +19,9 @@
 - Dependecy Inversion
   - Entities must depend on abstractions, not on concretions
 
-[DRY (Do Not Repeat Yourself)]
+## DRY (Do Not Repeat Yourself)
 
-[YAGNI(You Aren't Gonna Need It)]
+## YAGNI(You Aren't Gonna Need It)
 
-Ref:
+## Ref:
 https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design

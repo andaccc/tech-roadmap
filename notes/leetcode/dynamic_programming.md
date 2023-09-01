@@ -1,12 +1,12 @@
-### Dynamic Programming ###
+# Dynamic Programming 
 
-# DP
+## DP
 - Breaking down problems into simpler sub problems
 - Storing sub problems solution
 - Look up computed solution
 
 
-# Stesps
+## Stesps
 1. Recognize DP problem
     - Problem solution can be expressed as a function of sub solutions?
 
@@ -29,7 +29,7 @@
 7. Determine time/space complexity
 
 
-# Types
+## Types
 Bottom-up (Tabulation)
 - build up look up table starting at base cases 
 
@@ -37,5 +37,5 @@ Top-down (Memoization)
 - with recursion
 - store function result in hashmap/ array if not yet exist  
 
-Ref:
+## Ref:
 https://www.freecodecamp.org/news/follow-these-steps-to-solve-any-dynamic-programming-interview-problem-cc98e508cd0e/

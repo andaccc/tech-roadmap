@@ -1,11 +1,11 @@
-##### Steps for building Krita in win10 #####
+# Steps for building Krita in win10
 
 https://docs.krita.org/en/untranslatable_pages/building_krita.html#building-on-windows
 
 
 https://krita-artists.org/t/trouble-building-krita-on-windows/23344/4
 
-### Requirements:
+## Requirements:
 - Git 
   - https://git-scm.com/downloads
 - CMake > 3.10
@@ -28,10 +28,10 @@ https://krita-artists.org/t/trouble-building-krita-on-windows/23344/4
 
 
 
-### Steps:
-# Install Required tools
+## Steps:
+### Install Required tools
 
-# prepare dir
+### prepare dir
 / krita_dev
   / dev
     / krita (git source), 
@@ -39,9 +39,10 @@ https://krita-artists.org/t/trouble-building-krita-on-windows/23344/4
   / i (install)
   / b (binary)
 
-# create dev/env.bat
+### create dev/env.bat
 - edit version numbers and path
-========================
+
+```
 set DLLTOOL_EXE=C:\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\bin\dlltool.exe
 set MINGW_GCC_BIN=C:\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\\bin
 set MINGW_BIN_DIR=C:\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\\bin
@@ -50,46 +51,50 @@ set BUILDDIR_INSTALL=%BUILDROOT%\i
 set PATH=%BUILDROOT%\i\bin;%BUILDROOT%\i\lib;%MINGW_GCC_BIN%;C:\Program Files\CMake\bin;c:\qt\qtcreator-4.12.0\bin;%PATH%
 set "WindowsSdkDir=%ProgramFiles(x86)%\Windows Kits\10"
 set "WindowsSdkVerBinPath=%ProgramFiles(x86)%\Windows Kits\10\bin\10.0.17763.0"
+```
 
-:: Since Krita 5.1 when using SIP5+ you also need to set up PYTHONPATH manually
+ Since Krita 5.1 when using SIP5+ you also need to set up PYTHONPATH manually
 set PYTHONPATH=%BUILDROOT%\i\lib\site-packages;%PYTHONPATH%
-=======================
 
-[Set Env]
-# run dev/env.bat
+---
+
+## Set Env
+### run dev/env.bat
 - everytime when build
 
-[Cloe Source]
-# clone krita git source
+## Cloe Source
+### clone krita git source
 - https://invent.kde.org/graphics/krita
 - to /dev/krita
 
 
-[Prepare dependencies]
+## Prepare dependencies
 - using prebuilt dependencies <== use this one seems ok
   - compiler version need match...
   - create /b
   - cd to /b
-  - cmake ..\krita\build-tools\ci-deps -G "MinGW Makefiles" -DCMAKE_INSTALL_PREFIX=..\i
+  - `cmake ..\krita\build-tools\ci-deps -G "MinGW Makefiles" -DCMAKE_INSTALL_PREFIX=..\i`
   - cmake --build .
 
 - Building dependencies from scratch 
   - take hours to build
   - make sure path is correct
   - cd krita_dev\
-  - krita_dev\krita\build-tools\windows\build.cmd --no-interactive --jobs 8 --skip-krita --src-dir <C:\krita> --download-dir <C:\d> --deps-build-dir <C:\b> --deps-install-dir <C:\i>
+  - `krita_dev\krita\build-tools\windows\build.cmd --no-interactive --jobs 8 --skip-krita --src-dir <C:\krita> --download-dir <C:\d> --deps-build-dir <C:\b> --deps-install-dir <C:\i>`
   - zip and backup /i
 
-# Build krita
+## Build krita
   - make sure path is correct
-  - krita\build-tools\windows\build.cmd --no-interactive --jobs 8 --skip-deps --src-dir c:\dev\krita --download-dir c:\dev\d --deps-build-dir c:\dev\b --deps-install-dir c:\dev\is --krita-build-dir c:\dev\b_krita --krita-install-dir c:\dev\i
+  - `krita\build-tools\windows\build.cmd --no-interactive --jobs 8 --skip-deps --src-dir c:\dev\krita --download-dir c:\dev\d --deps-build-dir c:\dev\b --deps-install-dir c:\dev\is --krita-build-dir c:\dev\b_krita --krita-install-dir c:\dev\i`
 
 
-# Quick build
+## Quick build
+```
 $ cd c:\dev\b_krita
 $ mingw32-make install
+```
 
-# Run krita
+## Run krita
 - env.bat
 - /i/bin/krita.exe
 
