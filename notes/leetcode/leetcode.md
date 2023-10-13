@@ -40,7 +40,12 @@
 
 # Unique elements
 Hash map
-  - C++ set
+  - C++ 
+    - unordered_map
+    - map
+  - Python
+    - dict
+    
 
 # Flow
 - understand problem
