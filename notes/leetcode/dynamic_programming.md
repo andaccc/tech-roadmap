@@ -3,7 +3,7 @@
 ## DP
 - Breaking down problems into simpler sub problems
 - Storing sub problems solution
-- Look up computed solution
+- Look up previous computed solution
 
 
 ## Stesps
