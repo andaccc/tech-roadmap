@@ -18,6 +18,24 @@
 - Breadth-First Search
 - Depth-First Search
 - Binary Search (low/high/mid pointer)
+  - O(log(n))
+  ```python 
+  # initial status
+  left = 0
+  right = len(arr) - 1
+        
+  found = -1
+  while left <= right:
+      mid = (left + right) // 2
+      if arr[mid] < target:
+          # pick right side
+          left = mid + 1
+      elif arr[mid] > target:
+          # pick left side
+          right = mid - 1
+      elif arr[mid] == target:
+          found = mid
+  ```
 
 ## Sort
 - Quick Sort (pivot)
