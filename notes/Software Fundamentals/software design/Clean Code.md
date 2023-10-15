@@ -1,5 +1,5 @@
-##### Clean Code #####
-- Consisten style
+# Clean Code 
+- Consistent style
 - meaningful naming
 - Indented and spaced properly
 - Pass all test
@@ -9,6 +9,6 @@
 - not passing null
 
 
-Ref:
+## Ref:
 https://www.freecodecamp.org/news/software-design/
 https://refactoring.guru/design-patterns

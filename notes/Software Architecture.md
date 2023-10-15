@@ -1,13 +1,13 @@
-##### Software Architecture #####
+# Software Architecture
 
-=====[Layered]=====
-# Presentation Layer 
+## Layered
+### Presentation Layer 
 - UI
-# Business Layer
+### Business Layer
 - Logic 
-# Persistence Layer
+### Persistence Layer
 - DAO
-# Database Layer
+### Database Layer
 - Data Storage  
 
 Pros 
@@ -19,20 +19,19 @@ Cons
 - may need to deploy whole system for any changes
 - costly scalability
 
+---
+## Event-Driven
 
-=====[Event-Driven]=====
-
-## Mediator
-# Event
+### Mediator
+### Event
 - Initial (raw event)
 - Processing (middle)
-# Event Queue
-# Mediator
-# Event Channel
-# Event Processors
+### Event Queue
+### Event Channel
+### Event Processors
 
-## Broker
-# Broker event Channel
+### Broker
+- Broker event Channel
 
 Pros 
 - Decouple/ isolated processor
@@ -42,11 +41,10 @@ Cons
 - event generation on testing
 - async, error handling, processor response
 
-
-=====[Microkernel]=====
-# Core
-# Plug-on Components
-
+--- 
+## Microkernel
+### Core
+### Plug-on Components
 
 Pros 
 - isolated modules
@@ -56,11 +54,11 @@ Cons
 - limited expansion scope
 - complicated connectivity
 
-
-=====[Microservices]=====
-# Client Requests
-# UI / API Layer
-# Service Components
+---
+## Microservices
+### Client Requests
+### UI / API Layer
+### Service Components
 
 Level of granularity
 
@@ -72,15 +70,16 @@ Pros
 Cons
 - distributed nature, low performance
 
-=====[Space-Based]=====
-cloud architecture
-# Virtualized Mddleware
+---
+## Space-Based
+### Cloud architecture
+### Virtualized Middleware
 - Messaging 
 - Data
 - Processing
 - Deployment
-# Processing Unit
+### Processing Unit
 
 
-Ref:
+## Ref:
 Software Architecture Patterns

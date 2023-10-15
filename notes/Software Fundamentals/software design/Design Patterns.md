@@ -1,12 +1,12 @@
-##### Design Patterns #####
-[Creational]
+# Design Patterns
+## Creational
 - Factory Method
 - Abstract Factory
 - Builder
 - Prototype
 - Singleton
 
-[Structural]
+## Structural
 - Adapter
 - Bridge
 - Proxy
@@ -15,7 +15,7 @@
 - Facade
 - Flyweight
 
-[Behavioral]
+## Behavioral
 - Command
 - Chain of Responsibility
 - Mediator
@@ -28,5 +28,5 @@
 - Template Method
 
 
-Ref:
+## Ref:
 https://refactoring.guru/design-patterns

@@ -1,6 +1,6 @@
-##### Data Modeling #####
+# Data Modeling
 
-[Data Model Types]
+## Data Model Types
 ### Conceptual
 - Domain
 - Business Rules
@@ -13,7 +13,7 @@
 ### Physical
 - Database-specific schema implementation
 
-[Process]
+## Process
 - Entities
 - Key properties of each entity
 - Relationships among entities
@@ -21,11 +21,13 @@
 - Normalization
 - Finalise and validate data model
 
-[Data Modeling Types]
+## Data Modeling Types
 - Hierarchical
 - Network
 - Relational
 
-Ref:
+## Ref:
+
 https://www.ibm.com/cloud/learn/data-modeling
+
 https://www.guru99.com/data-modelling-conceptual-logical.html

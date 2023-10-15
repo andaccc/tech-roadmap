@@ -1,21 +1,30 @@
-Introduction of my tech-roadmap and software related notes
+# Introduction of my Tech roadmap and Software related notes
 
-===================
-Areas of interest
+## Goal
+- ## Bring positive impact to current life style
+
+---
+## Areas of interest
 - Robotics
   - Multi-Agent Pathfinding
   - Mission Planning
-- Drawing software
-  - Krita https://github.com/KDE/krita
-- Graphical Engine
+- Graphical Engine / Rendering
 - Software Architecture
+- Drawing Software
 - Game dev
 
-Skills Stack
+## Skills Stack
 - Software Design
   - Software Architecture Design 
     - Design Pattern
   - UI/UX design
+- Data Pipeline
+  - Kafka
+  - ETL
+- Cloud
+  - Kubenetes
+  - Docker
+  - AWS
 - Application Software
   - Hardware Interfacing
     - COM 
@@ -32,10 +41,13 @@ Skills Stack
     - NodeJs
   - Database
     - MySQL
+    - PostgreSQL
+    - MongoDB
 - Languages
   - C++
   - Python
   - Javascript
+  - Go
   - C#     
 - Platforms
   - Linux 

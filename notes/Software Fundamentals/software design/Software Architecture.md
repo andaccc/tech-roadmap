@@ -1,13 +1,13 @@
-##### Software Architecture #####
+# Software Architecture 
 
-===[Architectural Principles]===
+## Architectural Principles
 ### Component Design 
 
-# Stable Abstraction Principle
+### Stable Abstraction Principle
 - The more stable a component is, the more abstract it should be
 - avoid component becoming too specific
 
-# Stable Dependency Principle
+### Stable Dependency Principle
 - Components dependencies should be in the direction of stability
 - Stable: High-level policy -> aren't expected to change that often
   - Schema
@@ -15,14 +15,14 @@
 - Volatile: Low-level details -> require frequent changes
   - front end
 
-### Policy vs Detail 
-# Policy
+## Policy vs Detail 
+### Policy
 - Abstractions
 - Interfaces
 - Business Logic
 - Declarative
 
-# Detail
+### Detail
 - Concretions
 - Implementations
 - Infrastructure
@@ -30,8 +30,8 @@
 
 ### Boundaries 
 - subdomains
-
-===[Architectural Styles]===
+---
+## Architectural Styles
 ### Component-based / Microservices
 - independent components
 - horizontal separation
@@ -71,8 +71,8 @@
 components deployed separately and operate by communicatong over a network protocol, delegating responsibility to other components
 - Client-Server
 - Peer-to-Peer
-
-===[Architectural  Patterns]===
+---
+## Architectural  Patterns
 ### Domain-Driven Design -> Reflect real-life model
 - Domain Modeling 
   - Entities -> Identity 
@@ -91,8 +91,12 @@ components deployed separately and operate by communicatong over a network proto
 ### Event Sourcing
 - storing data as events in an append-only log
 
-Ref:
+## Ref:
 https://www.freecodecamp.org/news/software-design/
+
 https://khalilstemmler.com/
-https://medium.com/inato/an-introduction-to-domain-driven-design-386754392465
+
+https://medium.com/inato/
+an-introduction-to-domain-driven-design-386754392465
+
 https://little-hands.hatenablog.com/entry/2018/12/09/entity-value-object

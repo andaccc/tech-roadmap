@@ -1,13 +1,13 @@
-##### Programming Paradigms #####
+# Programming Paradigms 
 
-[Object-Oriented Programming]
+## Object-Oriented Programming
 - favor polymorphisms
 - Imperative
   - Explicit 
 
-[Procedural Programming]
+## Procedural Programming
 
-[Functional Programming]
+## Functional Programming
 - Pure function
 - Immutable data
 - First-Class
@@ -21,14 +21,14 @@
 example
 - javascript map()
 
-# Advantage
+### Advantage
 - Easily testable/debuggable
 
-# Disadvantage
+### Disadvantage
 - Large memory space
 - Difficulty of stateful programming
 
-[Structured Programming]
+## Structured Programming
 - Systemtic organization
 - modules
 - Block
@@ -39,5 +39,5 @@ example
 - favor algorithm
 
 
-Ref:
+## Ref:
 https://deepsource.io/glossary/structured-programming/

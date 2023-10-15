@@ -1,6 +1,6 @@
-##### Frog Jump 403 #####
+# Frog Jump 403
 
-### Problems
+## Problems
 Frog can must jump on stone
 
 Initial Jump = 1 unit
@@ -10,7 +10,7 @@ next jump must = last jump k, k - 1, k + 1
 - Each stone's position will be a non-negative integer < 231.
 - The first stone's position is always 0.
 
-### Example 
+## Example 
 [0,1,3,5,6,8,12,17]
 0 -> 1 -> 3 -> 5 -> 8 -> 12 -> 17
 return True
@@ -18,8 +18,8 @@ return True
 [0,1,2,3,4,8,9,11]
 return False
 
-### Solution 
-# Brute Force
+## Solution 
+### Brute Force
 - recursion find all possibilities on each jump
 - n * 3n
 
@@ -27,15 +27,16 @@ Time: O(3 ^ n)
 
 -> Timeout
 
-# DP
+### DP
 - Store last jump for each index
 - Check each last jump is possible for what next jump
 - If last index has solution jump
 - then return true
 
-Time: O(3n^2), worst: n * 3n
-Space: O(n)
+Time:  `O(3n^2), worst: n * 3n
+Space: O(n)`
 
+```C#
 class Solution {
 public:     
     bool canCross(vector<int>& stones) {
@@ -80,3 +81,4 @@ public:
         return false;
     }
 };
+```

@@ -1,4 +1,4 @@
-### Cloud ###
+# Cloud 
 
 Pay for cloud execution
 Focus on business logic
@@ -11,17 +11,17 @@ Cons
 - cold start
 - difficult monitor/debugging
 
-# Stack
+## Stack
 - Faas Function as a service 
 - Serverless database/storage
 - Event Streaming/ Messaging
 - API gateway
 
-# MicroServices
+## MicroServices
 - break down application as services
 
-# AWS 
-1. Operational Excellence
+## AWS 
+### 1. Operational Excellence
 - continuously improve for operational process
 
 - Automation
@@ -33,7 +33,7 @@ Cons
     - Analytics
     - Action
 
-2. Security
+### 2. Security
 - Identity and Access Management
   - Principal (who permitted)
   - Action (what)
@@ -53,7 +53,7 @@ Cons
   - Enctyption in Transit (between system)
   - Enctyption at Rest (within system)
 
-3. Reliability
+### 3. Reliability
 - withstand disruption
 - Fault Isolation
   - Resouce and Request
@@ -64,7 +64,7 @@ Cons
   - Region
     - redundant copes across different data centers
 
-4. Performance Efficiency
+### 4. Performance Efficiency
 - Efficiency and Scalability 
 - Selection
   - Types
@@ -80,7 +80,7 @@ Cons
   - Horizontal Scaling
     - number of instance
 
-5. Cost Optimization
+### 5. Cost Optimization
 - pay as you go
 - Pay For Use
   - Right Sizing
