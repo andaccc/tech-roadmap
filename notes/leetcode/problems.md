@@ -1,7 +1,8 @@
 # String
 ## Anagram group
 - words from letter rearragement
-- sort string and hash map
+- sort string
+- hash map -> character count
 
 ## Pangrams
 - words with all 26 letters
