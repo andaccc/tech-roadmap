@@ -19,3 +19,5 @@ slproweb.com/products/Win32OpenSSL.html
 
 Unzip and install by PowerShell
 `C:\dev\ros2-windows\local_setup.ps1`
+
+https://answers.ros.org/question/379164/rti-connext-dds-environment-script-not-found-ros2-on-windows/
