@@ -20,4 +20,16 @@ slproweb.com/products/Win32OpenSSL.html
 Unzip and install by PowerShell
 `C:\dev\ros2-windows\local_setup.ps1`
 
+Require DDS
 https://answers.ros.org/question/379164/rti-connext-dds-environment-script-not-found-ros2-on-windows/
+
+---
+# WSL2 
+install Ubuntu 22.04 LTS
+- ```wsl --install -d Ubuntu-22.04```
+
+# Install Ros 2 Iron
+https://docs.ros.org/en/iron/Installation/Ubuntu-Install-Debians.html
+
+
+
