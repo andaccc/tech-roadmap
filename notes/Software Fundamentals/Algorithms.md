@@ -1,32 +1,30 @@
-# Algorithms
+## Algorithms
 Recursive 
 Backtracking
 - Choose
 - Constraint
 - Goal
 
-====================================
 ## Searching
-# Linear Search
+### Linear Search
 - time: O(n)
 - space: O(1)
 
-## Binary Search
+### Binary Search
 - Divide and conquer 
 - Left, Mid, Right pointer
 - must be sorted
 - time: O(log n)
 - space: O(1)
 
-## Depth First Search
+### Depth First Search
 - deep into subtree
 - O(V+E)
 
-## Breadth First Search
+### Breadth First Search
 - explore all nodes for current depth
 - O(V+E)
 
-======================================
 ## Sorting
 ### Bubble Sort
 - swapping adjacent elements
