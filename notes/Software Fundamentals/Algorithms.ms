@@ -1,4 +1,4 @@
-##### Algorithms #####
+# Algorithms
 Recursive 
 Backtracking
 - Choose
@@ -6,34 +6,34 @@ Backtracking
 - Goal
 
 ====================================
-### Seaching
+## Searching
 # Linear Search
 - time: O(n)
 - space: O(1)
 
-# Binary Search
+## Binary Search
 - Divide and conquer 
 - Left, Mid, Right pointer
 - must be sorted
-- time: O(logn)
+- time: O(log n)
 - space: O(1)
 
-# Depth First Search
+## Depth First Search
 - deep into subtree
 - O(V+E)
 
-# Breadth First Search
+## Breadth First Search
 - explore all nodes for current depth
 - O(V+E)
 
 ======================================
-### Sorting
-# Bubble Sort
+## Sorting
+### Bubble Sort
 - swapping adjacent elements
 - time: O(n^2)
 - space: O(1)
 
-# Quick Sort
+### Quick Sort
 - pivot, left right sides
 - recursive partition
 - time: 
@@ -41,14 +41,14 @@ Backtracking
  - average: O(nlogn) 
 - space: O(n)
 
-# Merge Sort
+### Merge Sort
 - recursive divide
 - recursive merge left and right side
 - time: O(nlogn) 
 - space: O(n)
 
-# Insertion Sort
-# Selection Sort
-# Tree Sort
-# Heap SOrt
-# Radix Sort
+### Insertion Sort
+### Selection Sort
+### Tree Sort
+### Heap SOrt
+### Radix Sort
