@@ -1,7 +1,7 @@
-# Introduction of my Tech roadmap and Software related notes
+# Introduction of my Tech roadmap
 
 ## Goal
-- ## Bring positive impact to current life style
+- ## Bring positive impacts with software
 
 ---
 ## Areas of interest
