@@ -17,7 +17,8 @@
 ## Search
 - Breadth-First Search
 - Depth-First Search
-- Binary Search (low/high/mid pointer)
+- **Binary Search**
+  - low/high/mid pointer
   - O(log(n))
   ```python 
   # initial status
@@ -69,18 +70,18 @@ Hash map
 - understand problem
 - Brute Force
 - Optimize algorithm 
-  1. Improvement
-  - Bottlenecks
-  - Unnecessary work
-  - Duplicated Work
-  2. layout Real example
-  3. Simplify and Generalize (Pesudo Code)
-    - what exact step (create array...)
-    - improve it by hash table
-  4. Base Case and Build
-    - complex case 
-  5. Data Structure Brainstorm
-    - which to use
+    1. Improvement
+        - Bottlenecks
+        - Unnecessary work
+    	- Duplicated Work
+    2. layout Real example
+    3. Simplify and Generalize (Pesudo Code)
+    	- what exact step (create array...)
+    	- improve it by hash table
+    4. Base Case and Build
+    	- complex case 
+    5. Data Structure Brainstorm
+    	- which to use
 - Implement Code
   - simple
   - Readable
