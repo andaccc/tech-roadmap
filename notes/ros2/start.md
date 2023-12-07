@@ -83,3 +83,9 @@ def main():
 if __name__ == '__main__':
     main()
  ```
+
+---
+# Rviz
+
+- window start `Xlaunch`
+- `$ rviz2`
