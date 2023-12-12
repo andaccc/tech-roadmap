@@ -7,7 +7,7 @@
 | センサー   (検知器 けんちき)    | Sensor        |
 | ガス          | Gas                 |
 | 警報器 けいほうき   | Alarm                 |
-| 水位検知 すいい-けんちき    | Water level detection                 |
+| 水位検知 すいい-けんち    | Water level detection                 |
 | 実験                        | experiment                  |
 | 分析                        | Analyze                 |
 | 効率                        | Efficiency                 |
