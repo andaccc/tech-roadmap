@@ -11,7 +11,7 @@
 | 実験                        | experiment                  |
 | 分析                        | Analyze                 |
 | 効率                        | Efficiency                 |
-| 担当                        | Responsible                  |
+| 担当する                        | Being responsible for            |
 | 設計 せっけい       | Design                  |
 | モニタリング  / 監視する         | Monitoring             |
 | ソフトウェア                 | Software                  |
