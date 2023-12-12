@@ -68,6 +68,13 @@ rviz2
 
 ![image](https://github.com/andaccc/tech-roadmap/assets/8611553/8473ff28-2267-4793-ac8d-5cd6976650ee)
 
+tf
+```shell
+ros2 run ros_gz_bridge parameter_bridge /model/vehicle_blue/tf@tf2_msgs/msg/TFMessage[gz.msgs.Pose_V --ros-args -r /model/vehicle_blue/tf:=/tf
+```
+
+![image](https://github.com/andaccc/tech-roadmap/assets/8611553/ff96b40c-7adf-4e8f-93db-3e599f624837)
+
 
 # Reference 
 https://docs.ros.org/en/iron/Tutorials/Advanced/Simulators/Gazebo/Gazebo.html
