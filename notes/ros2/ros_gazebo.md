@@ -17,7 +17,7 @@ sudo apt-get update
 sudo apt-get install gz-harmonic
 ```
 
-### Test Gazebo
+### Run Gazebo
 https://gazebosim.org/docs
 
 ```shell
