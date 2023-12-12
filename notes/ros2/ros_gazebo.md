@@ -20,13 +20,17 @@ sudo apt-get install gz-harmonic
 https://gazebosim.org/docs
 
 ```shell
+# Start gazebo sim
 gz sim -v 4 -r visualize_lidar.sdf
 
+# Test control
 gz topic -e -t /model/vehicle_blue/cmd_vel
 
 gz topic -t /model/vehicle_blue/cmd_vel -m gz.msgs.Twist -p "linear: { x: 0.1 }”
-
 ```
+
+![image](https://github.com/andaccc/tech-roadmap/assets/8611553/0cb81ed4-a6cf-45a1-af4e-d39f27bf0b26)
+
 
 ### Install Ros gz bridge
 ros topic: `/model/vehicle_blue/cmd_vel`, Type `geometry_msgs/msg/Twist`
@@ -52,6 +56,17 @@ sudo apt install ros-iron-teleop-twist-keyboard
 ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/model/vehicle_blue/cmd_vel
 ```
 
+### Rviz
+
+Lidar Data
+```shell
+ros2 run ros_gz_bridge parameter_bridge /lidar2@sensor_msgs/msg/LaserScan[gz.msgs.LaserScan --ros-args -r /lidar2:=/laser_scan
+
+rviz2
+```
+`Global Options` -> `Fixed Frame` to `vehicle_blue/lidar_link/gpu_lidar`
+
+![image](https://github.com/andaccc/tech-roadmap/assets/8611553/8473ff28-2267-4793-ac8d-5cd6976650ee)
 
 
 # Reference 
