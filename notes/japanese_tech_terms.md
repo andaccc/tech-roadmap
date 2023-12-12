@@ -2,7 +2,7 @@
 |-----------------------------|---------------------------|
 | ハードウェア (ハード)        | Hardware                  |
 | 物理 ぶつり                    | Physics                  |
-| 設備 せつび                       | Equiments        |
+| 設備 せつび                       | Equipments        |
 | 電子回路 でんしかいろ          | Electronic circuit         |
 | センサー   (検知器 けんちき)    | Sensor        |
 | ガス          | Gas                 |
@@ -11,11 +11,11 @@
 | 実験                        | experiment                  |
 | 分析                        | Analyze                 |
 | 効率                        | Efficiency                 |
-| 担当                        | Responisble                  |
+| 担当                        | Responsible                  |
 | 設計 せっけい       | Design                  |
 | モニタリング  / 監視する         | Monitoring             |
 | ソフトウェア                 | Software                  |
-| 組み込みソフトウェア         | Embbeded  Software           |
+| 組み込みソフトウェア         | Embedded  Software           |
 | 開発                        | Development              |
 | インタフェース              | Interface                 |
 | プログラミング言語          | Programming Language      |
