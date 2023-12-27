@@ -1,6 +1,6 @@
 # Repeated String
 
-'''python
+```python
 def repeatedString(s, n):
     # Write your code here
     # add up string
@@ -21,4 +21,4 @@ def repeatedString(s, n):
             count += 1
     
     return count
-'''
+```
