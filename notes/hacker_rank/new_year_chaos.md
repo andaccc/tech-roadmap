@@ -47,6 +47,7 @@ def minimumBribes(q):
             print('Too chaotic')
             return
         else:
+            # check current value is bribed by front 2 indices -> q[i] -2
             for j in range(max(0, q[i] - 2), i):
                 if q[j] > q[i]:
                     count += 1
