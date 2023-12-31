@@ -2,6 +2,9 @@
 
 current number of ways = previous 1~3 steps numbers of ways add up 
 
+simple bottom up dp 
+
+
 ```python
 def stepPerms(n):
     dp = [0] * n
