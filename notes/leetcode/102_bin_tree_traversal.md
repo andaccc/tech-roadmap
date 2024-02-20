@@ -1,6 +1,7 @@
 # 102. Binary Tree Level Order Traversal
 
 ## BFS + queue
+store node to queue
 O(n)
 
 ```python
