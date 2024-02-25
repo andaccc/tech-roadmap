@@ -1,6 +1,5 @@
 # Introduction of my Tech roadmap
 
----
 ## Areas of interest
 - Robotics
   - Multi-Agent Pathfinding
