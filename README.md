@@ -1,8 +1,5 @@
 # Introduction of my Tech roadmap
 
-## Goal
-- ## Bring positive impacts with software
-
 ---
 ## Areas of interest
 - Robotics
