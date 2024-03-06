@@ -7,6 +7,7 @@ need O(1) to find min value
 - min value stack to store minimum value at current index
 
 [1, 2, 3, -1]
+
 [1, 1, 1, -1]
   
 
