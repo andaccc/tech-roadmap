@@ -1,15 +1,15 @@
-### Data Structure ###
+# Data Structure #
 
-# Array
+## Array
 - sequece of memory locations
 
-# Linked Lists
+## Linked Lists
 - Collection of nodes which each node reference to the next node
 - Stack FILO
 - Queue FIFO
 - Doubly Linked Lists
 
-# Tree
+## Tree
 - collection of nodes which connected by edges, root to leaves 
 - Root node
 - binary tree
@@ -21,24 +21,24 @@
 - Complete: left to right order
 - Full: both left/ right node
 
-# Binary Heaps
+## Binary Heaps
 - Min/Max
 - complete binary tree
 - parent >/< child
 - insert O(logN)
 
-# Tries
+## Tries
 - prefix tree
 - node store character
 - * nodes/ null nodes
 - form words
 - to store languages for quick prefix lookups
 
-# Graph
+## Graph
 - collection of vertices and edges
 - directed/ undirected
 
-# Hash Table
+## Hash Table
 - key, value with unique index
 - hashing to generate index
 - linked list

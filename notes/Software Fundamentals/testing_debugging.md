@@ -1,20 +1,23 @@
-Static Analysis : without execute the code
+# Testing and Debugging
+## Static Analysis : without execute the code
 - Security vulnerabilities
 - Bug risks and anti-patterns (null/undefined values?)
 - Code style 
 - Performance issues
 - Unused code
 
-Dynamic Analysis : execute the code
+## Dynamic Analysis : execute the code
 - Unit test
 - Integration test
 - System test
 - Acceptance test
 
-Testing Process:
+## Testing Process:
 - Manual Testing
 - Automation Testing
 - Functional 
+  - Smoke Testing
+    - Simple validation to checking working or not
   - Unit test
   - Integration test
   - System test
@@ -27,5 +30,5 @@ Testing Process:
   - Usability 
   - Security
 
-Referrence:
+# Referrence:
 https://www.tutorialspoint.com/software_testing/software_testing_quick_guide.htm
