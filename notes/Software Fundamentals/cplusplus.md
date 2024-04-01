@@ -312,7 +312,7 @@ struct Person {
 - conserving memory
 
 ### enum
-- named intergral constant (only number)
+- named interger constant (only number)
 
 ---
 ### STL (Standard Template Library)
@@ -324,6 +324,41 @@ struct Person {
 - group logically related code elements
 - Preventing Name Collisions
 
+### vector
+```cpp
+vector<int> vect; 
+vect.push_back(10);
+
+vector<int> vect(3, 10); // size 3, value 10
+vector<int> vect{ 10, 20, 30 }; 
+```
+- dynamic size
+- auto memory allocation
+- function
+    - iterator
+    - sorting
+    - get size
+
+### array
+```cpp
+int* arr = new int[100];
+delete[] arr;
+```
+
+- size
+    - `sizeof(array) / sizeof(array[0])` 
+
+## pointer
+`*` -> dereference operator
+
+```cpp
+int *p;
+int a;
+p = &a;  // addresss of a
+
+a = 42  // *p = 42
+*p = 17 // a = 17
+```
 
 ## Smart pointer
 - pointers but provide additional functionalities
@@ -341,6 +376,7 @@ struct Person {
 - multiple owners (of memory)
 - reference counting
 - delete when all references destroy
+- for **multithreading**
 
 ### weak pointer
 - `std::weak_ptr`
